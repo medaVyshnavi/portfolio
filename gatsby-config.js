@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Meda Vyshnavi - Frontend Developer`,
-    siteUrl: `https://www.hooiyan.com`,
+    siteUrl: `https://www.medaVyshnavi.com`,
     author: `Meda Vyshnavi`,
   },
   plugins: [
