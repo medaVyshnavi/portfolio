@@ -1,0 +1,23 @@
+[
+  {
+    "alt": "Designo Multi-page website",
+    "description": "A 7 page site built with Next.js and CSS module along with mobile-first workflow. Incorporated Leaflet js library to have interactive maps and emailJS library",
+    "id": 1,
+    "slug": "designo",
+    "title": "Designo Multi Page Website"
+  },
+  {
+    "alt": "React Memory Game",
+    "description": "A Memory game built together with React and Plain CSS where users can play solo or multiple choosing between 4X4 or 6X6 grid , to increase the complexity you can play selecting icons instead of number",
+    "id": 2,
+    "slug": "memory",
+    "title": "Memory Game"
+  },
+  {
+    "alt": "Bookmark Landing Page",
+    "description": "A Simple and Beautiful Landing Page built using HTML, CSS and Javascript with good practices",
+    "id": 3,
+    "slug": "bookmark",
+    "title": "BookMark Landing Page"
+  }
+]
