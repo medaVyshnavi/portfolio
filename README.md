@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="./public/icons/icon-512x512.png" width="60" />
-  </a>
-</p>
 <h1 align="center">
   Portfolio site
 </h1>

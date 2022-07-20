@@ -1,9 +1,9 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import styled from 'styled-components';
-import device from '../styles/Breakpoints';
-import Logo from './icons/Logo';
-import NavMenuItem from './NavMenuItem';
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import device from "../styles/Breakpoints";
+import Logo from "./icons/Logo";
+import NavMenuItem from "./NavMenuItem";
 
 const FooterNavStyles = styled.section`
   display: flex;
@@ -53,7 +53,7 @@ const FooterNav = () => (
         <Link to="/">Home</Link>
       </NavMenuItem>
       <NavMenuItem>
-        <Link to="/portfolio/">Portfolio</Link>
+        <Link to="/portfolio/">Work</Link>
       </NavMenuItem>
       <NavMenuItem>
         <Link to="/contact/">Contact Me</Link>

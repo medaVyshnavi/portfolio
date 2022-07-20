@@ -1,8 +1,8 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import styled from 'styled-components';
-import device from '../styles/Breakpoints';
-import NavMenuItem from './NavMenuItem';
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import device from "../styles/Breakpoints";
+import NavMenuItem from "./NavMenuItem";
 
 const NavDesktopStyles = styled.ul`
   display: flex;
@@ -30,7 +30,7 @@ const NavDesktop = () => (
         activeStyle={{ color: `var(--color-primary-cyan-hex)` }}
         partiallyActive
       >
-        Portfolio
+        Work
       </Link>
     </NavMenuItem>
     <NavMenuItem>

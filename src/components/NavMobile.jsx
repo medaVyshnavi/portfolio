@@ -1,10 +1,10 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import styled from 'styled-components';
-import device from '../styles/Breakpoints';
-import IconClose from './icons/IconClose';
-import IconHamburger from './icons/IconHamburger';
-import NavMenuItem from './NavMenuItem';
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import device from "../styles/Breakpoints";
+import IconClose from "./icons/IconClose";
+import IconHamburger from "./icons/IconHamburger";
+import NavMenuItem from "./NavMenuItem";
 
 const NavMobileStyles = styled.div`
   cursor: pointer;
@@ -50,13 +50,13 @@ const NavMobile = () => {
   };
 
   const handleClickOutside = (e) => {
-    const isOutside = !e.target.closest('.menu-list');
+    const isOutside = !e.target.closest(".menu-list");
     return isOutside && setIsOpen(false);
   };
 
   React.useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   });
 
   return (
@@ -94,7 +94,7 @@ const NavMobile = () => {
               partiallyActive
               onClick={() => setIsOpen(false)}
             >
-              Portfolio
+              Work
             </Link>
           </NavMenuItem>
           <NavMenuItem>
