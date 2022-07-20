@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimalist portfolio site
+  Portfolio site
 </h1>
 
 ## 🚀 Getting started
@@ -20,13 +20,13 @@
     yarn install
     ```
 
-3. Run local development server
+3.  Run local development server
 
     ```bash
     npm run develop
     ```
 
-4. Open the code and start customizing!
+4.  Open the code and start customizing!
 
     Your site is now running at http://localhost:8000!
 
